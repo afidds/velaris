@@ -31,7 +31,7 @@ mapper.visualize(graph, path_html="classifier_x10.html",
                  color_function=X[:,10] 
                 )
 ```
-The K-means clustering didn't yield spectacular results. In the repository K-True.webarchive represents the basis. K-1, K-2, K-4 and K-5 are the only features that showed any significance. And this is because K-means is for unsupervised data, and in this case our data is labeled. 
+The K-means clustering didn't yield spectacular results. In the repository K-True.webarchive represents the basis. K-1, K-2, K-4 and K-5 are the only features that showed any significance but barely any color change. And this is because K-means is for unsupervised data, and in this case our data is labeled. 
 
 I then created a K-Nearest Neighbor classification 
 ```python
